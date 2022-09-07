@@ -15,7 +15,7 @@
     padding-left: 15px;
     padding-right: 15px; 
    
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0 auto;
 }
 
@@ -72,6 +72,9 @@ a {
 .auth-link:hover,
 .auth-link:focus {
     color: var(--accent-color);
+}
+.header-page {
+    margin-bottom: 94px;
 }
 
 /* main */
@@ -241,7 +244,9 @@ a {
     line-height: 1.9;
     }
 
-
+.portfolio-section {
+    margin-bottom: 94px;
+}
 /* Footer */
 .footer {
     background-color: var(--bgd-color-footer);
