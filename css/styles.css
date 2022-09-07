@@ -15,7 +15,7 @@
     padding-left: 15px;
     padding-right: 15px; 
    
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0 auto;
 }
 
@@ -194,7 +194,7 @@ a {
 .btn-nav {
     border-radius: 4px;
     border: 1px solid transparent;
-    padding: 6px 25px;
+    padding: 6px 22px;
     min-width: 73px;
     text-align: center;
 
@@ -207,6 +207,7 @@ a {
 }
 .btn-nav:hover,
 .btn-nav:focus {
+    padding: 6px 25px;
     color: var(--bgd-color);
     background-color: var(--accent-color);
 }
@@ -215,7 +216,15 @@ a {
 .hero-btn {
     cursor: pointer;
 }
+
+.portfolio-img {
+    margin-bottom: 20px;
+}
 .portfolio-title {
+    margin-top: 0;
+    margin-bottom: 4px;
+
+
     color: var(--color-link);
     font-weight: 700;
     font-size: 18px;
@@ -223,10 +232,15 @@ a {
     letter-spacing: 0.06em;
 }
 .portfolio-text {
+    margin-top: 0;
+    /* margin-bottom: 20px; */
+    margin-bottom: 0;
+
     color: var(--primary-color-text);
     font-size: 16px;
     line-height: 1.9;
-}
+    }
+
 
 /* Footer */
 .footer {
