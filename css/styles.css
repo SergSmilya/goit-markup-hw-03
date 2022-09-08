@@ -14,8 +14,6 @@
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px; 
-   
-    outline: 1px solid red;
     margin: 0 auto;
 }
 
@@ -49,9 +47,13 @@ a {
     letter-spacing: 0.03em;
 }
 .logo span {
-    color: var(--logo-color-span)
+    color: var(--logo-color-span);
 }
 .header-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--color-link);
     font-weight: 500;
     font-size: 14px;
@@ -65,6 +67,13 @@ a {
 .header-nav .header-link.current {
     color: var(--accent-color);
 }
+.header-nav { 
+    display: flex;
+}
+.header-nav .lex + .lex {
+    margin-left: 50px;
+    outline: 1px solid red;
+}
 .auth-link {
     color: var(--primary-color-text);
     font-weight: 500;
@@ -76,6 +85,11 @@ a {
 .header-page {
     margin-bottom: 94px;
 }
+/* ??? */
+/* .auth-nav {
+    display: flex;
+    outline: 1px solid orange;
+} */
 
 /* main */
 
@@ -84,13 +98,10 @@ a {
     margin-top: 0;
     margin-bottom: 94px;
     text-align: center;
-    
-
 }
 .hero-title {
     margin-top: 0;
     margin-bottom: 30;
-
     color: var(--bgd-color);
     font-weight: 900;
     font-size: 44px;
@@ -133,7 +144,6 @@ a {
 .detail-title {
     margin-top: 0px;
     margin-bottom: 10px;
-
     color: var(--color-link);
     font-weight: 700;
     font-size: 14px;
@@ -141,7 +151,6 @@ a {
 .detail-text {
     margin-top: 0px;
     margin-bottom: 0px;
-
     color: var(--primary-color-text);
     font-size: 14px;
 }
@@ -178,7 +187,6 @@ a {
 .team-name {
     margin-top: 0px;
     margin-bottom: 10px;
-
     color: var(--color-link);
     font-weight: 500;
     font-size: 16px;
@@ -187,7 +195,6 @@ a {
 .team-text {
     margin-top: 0px;
     margin-bottom: 0px;
-
     color: var(--primary-color-text);
     font-weight: 400;
     font-size: 16px;
@@ -200,7 +207,6 @@ a {
     padding: 6px 22px;
     min-width: 73px;
     text-align: center;
-
     color: var(--color-link);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -238,7 +244,6 @@ a {
     margin-top: 0;
     /* margin-bottom: 20px; */
     margin-bottom: 0;
-
     color: var(--primary-color-text);
     font-size: 16px;
     line-height: 1.9;
