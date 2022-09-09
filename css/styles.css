@@ -15,6 +15,7 @@
     padding-left: 15px;
     padding-right: 15px; 
     margin: 0 auto;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -34,6 +35,14 @@ a {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+.header-all {
+    display: flex;
+    align-items: center;
+}
+.nav-all {
+    display: flex;
+    align-items: center;
 }
 
 /* Header */
@@ -69,10 +78,10 @@ a {
 }
 .header-nav { 
     display: flex;
+    margin-left: 93px;
 }
 .header-nav .lex + .lex {
     margin-left: 50px;
-    outline: 1px solid red;
 }
 .auth-link {
     color: var(--primary-color-text);
@@ -82,14 +91,14 @@ a {
 .auth-link:focus {
     color: var(--accent-color);
 }
-.header-page {
-    margin-bottom: 94px;
-}
-/* ??? */
-/* .auth-nav {
+.header-page .auth-nav {
     display: flex;
-    outline: 1px solid orange;
-} */
+    margin-left: auto;
+}
+
+.auth-nav .head + .head {
+    margin-left: 50px;
+}
 
 /* main */
 
@@ -283,5 +292,4 @@ span.studio,
 }
 .auth-nav {
     display: inline-block;
-    padding-bottom: 60px;
 }
