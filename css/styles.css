@@ -15,7 +15,7 @@
     padding-left: 15px;
     padding-right: 15px; 
     margin: 0 auto;
-    /* outline: 1px solid red; */
+    outline: 1px solid red; 
 }
 
 body {
@@ -174,6 +174,10 @@ a {
     color: var(--color-link);
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
+}
+.work-items {
+    justify-content: space-between;
 }
 
 /* section team */
@@ -188,6 +192,11 @@ a {
     color: var(--color-link);
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
+}
+.team-list {
+    justify-content: space-between;
+    margin-bottom: 94px;
 }
 .team-img {
     margin-bottom: 30px;
@@ -261,6 +270,23 @@ a {
 .portfolio-section {
     margin-bottom: 94px;
 }
+.portfolio-list-btn {
+    justify-content: center;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*  ???
+.portfolio-items {
+
+    border-bottom: 1px solid #EEEEEE;
+} */
+.portfolio-nav {
+    margin-bottom: 34px;
+    margin-top: 90px;
+}
 /* Footer */
 .footer {
     background-color: var(--bgd-color-footer);
@@ -292,4 +318,7 @@ span.studio,
 }
 .auth-nav {
     display: inline-block;
+}
+.pad {
+    padding-bottom: 60px;
 }
