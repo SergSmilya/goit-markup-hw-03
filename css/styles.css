@@ -19,6 +19,10 @@
     margin: 0 auto;
     /* outline: 1px solid red;  */
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 body {
     color: var(--primary-color-text);
@@ -111,8 +115,12 @@ a {
     background: var(--bgd-color-footer);  
     padding: 200px 0;
     text-align: center;
+
 }
 .hero-title {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 30;
     color: var(--bgd-color);
@@ -172,6 +180,7 @@ a {
 
 /* section work */
 .work-section {
+    padding-top: 0;
     padding-bottom: 94px;
 }
 .work-title {
@@ -185,6 +194,11 @@ a {
 .work-items {
     justify-content: space-between;
 }
+.work-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* section team */
 .team-section {
@@ -194,7 +208,6 @@ a {
 .team-title {
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
     color: var(--color-link);
     font-weight: 700;
     font-size: 36px;
@@ -208,7 +221,7 @@ a {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
-    padding-bottom: 30px;
+    background-color: var(--bgd-color);
 }
 
 
@@ -226,7 +239,7 @@ a {
 }
 .team-text {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     color: var(--primary-color-text);
     font-weight: 400;
     font-size: 16px;
@@ -252,7 +265,7 @@ a {
 
 .btn-nav:hover,
 .btn-nav:focus {
-    padding: 6px 25px;
+    padding: 6px 22px;
     color: var(--bgd-color);
     background-color: var(--accent-color);
 }
@@ -269,7 +282,6 @@ a {
 .portfolio-title {
     margin-top: 0px;
     margin-bottom: 4px;
-    padding-top: 20px;
     color: var(--color-link);
     font-weight: 700;
     font-size: 18px;
@@ -278,7 +290,7 @@ a {
 }
 .portfolio-text {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     color: var(--primary-color-text);
     font-size: 16px;
     line-height: 1.9;
@@ -286,33 +298,29 @@ a {
 .frame {
     border: 1px solid var(--color-border);
     border-top: transparent;
-    margin-bottom: 30px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 20px 24px;
 }    
-.portfolio-section {
-    padding-bottom: 94px;
-}
 .portfolio-list-btn {
     justify-content: center;
 }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    row-gap: 30px;
+    column-gap: 30px;
 }
 .portfolio-nav {
-    margin-bottom: 34px;
-    padding-top: 94px;
+    margin-bottom: 50px;
 }
 /* Footer */
 .footer {
     background-color: var(--bgd-color-footer);
-    font-weight: 400;
+    padding-bottom: 60px;
+    padding-top: 60px;
 } 
 .footer-logo {
     display: inline-block;
-    padding-top: 60px;
+    margin-bottom: 20px;
 }
 span.studio,
 .adress-text {
@@ -322,8 +330,8 @@ span.studio,
     font-style: normal;
 }
 .adress-text {
-    margin-top: 20px;
     margin-bottom: 9px;
+    margin-top: 0;
 }
 .footter-auth-link,
 .footer {
@@ -337,6 +345,7 @@ span.studio,
 .auth-nav {
     display: inline-block;
 }
-.pad {
-    padding-bottom: 60px;
+.nav-item {
+    margin-bottom: 9px;
 }
+
